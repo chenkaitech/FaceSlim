@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FaceSlim · 3D Face Analysis & Tracking</title>
+<meta name="description" content="FaceSlim uses TrueDepth 3D scanning to analyze facial proportions, track contour changes and provide personalized beauty insights.">
+<link rel="icon" href="app_icon.png">
+<style>
+:root{--bg:#08100F;--surface:#121B19;--text:#F4F8F7;--sub:#AAB8B5;--accent:#20E3D2}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",Arial}
+.container{max-width:1100px;margin:auto;padding:40px 24px}
+nav{display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:700}
+.icon{width:42px;height:42px;border-radius:12px}
+a{color:var(--accent);text-decoration:none}
+.hero{display:grid;grid-template-columns:1fr .8fr;gap:40px;align-items:center;margin-top:50px}
+h1{font-size:42px}.lead,.small{color:var(--sub);line-height:1.7}
+.button{display:inline-block;background:var(--accent);color:#001;padding:14px 22px;border-radius:14px;font-weight:700;margin:10px 8px 10px 0}
+.card{background:var(--surface);border-radius:20px;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px}
+.section{margin-top:80px}
+img{max-width:100%;border-radius:20px}
+.footer{margin-top:80px;border-top:1px solid #ffffff22;padding:30px;color:var(--sub)}
+@media(max-width:900px){.hero{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+<div class="brand"><img class="icon" src="app_icon.png">FaceSlim</div>
+<div><a href="#features">Features</a>　<a href="#privacy">Privacy</a>　<a href="#support">Support</a></div>
+</nav>
+
+<section class="hero">
+<div>
+<h1>用3D数据追踪面部变化趋势</h1>
+<p class="lead">FaceSlim 使用 TrueDepth 摄像头进行3D面部扫描，分析面部比例，建立个人基准，并追踪长期轮廓变化。</p>
+<a class="button" href="https://apps.apple.com/">App Store</a>
+<p class="small">• TrueDepth 3D面部扫描<br>• 个人基准校准<br>• 历史轮廓对比</p>
+</div>
+<div><img src="faceslim_hero.png" alt="FaceSlim"></div>
+</section>
+
+<section id="features" class="section">
+<h2>FaceSlim 功能</h2>
+<div class="grid">
+<div class="card"><h3>3D轮廓测量</h3><p class="small">利用 TrueDepth 技术分析面部网格、下颌线、双颊和下巴比例。</p></div>
+<div class="card"><h3>双重美学标准</h3><p class="small">基于不同参考体系分析脸型与面部协调度。</p></div>
+<div class="card"><h3>个人基准校准</h3><p class="small">通过多次扫描建立个人基准，追踪变化趋势。</p></div>
+<div class="card"><h3>趋势追踪</h3><p class="small">查看7天、30天及长期面部数据变化。</p></div>
+<div class="card"><h3>美学洞察</h3><p class="small">提供自拍角度、发型和风格参考建议。</p></div>
+<div class="card"><h3>隐私保护</h3><p class="small">面部数据仅在设备本地处理。</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>App Screenshots</h2>
+<div class="grid">
+<img src="faceslim_1.png"><img src="faceslim_2.png"><img src="faceslim_3.png"><img src="faceslim_4.png">
+</div>
+</section>
+
+<section class="section">
+<div class="grid">
+<div class="card" id="privacy">
+<h2>Privacy</h2>
+<p class="small">FaceSlim processes facial analysis data locally. No account is required and photos are not uploaded.</p>
+</div>
+<div class="card" id="support">
+<h2>Support</h2>
+<p class="small">Questions or feedback are welcome.</p>
+<p><a href="mailto:freesysck@outlook.com">freesysck@outlook.com</a></p>
+<a href="support.html">Support Center</a><br>
+<a href="privacy.html">Privacy Policy</a>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<strong>FaceSlim</strong><br>
+扫描 → 分析 → 追踪 → 洞察
+</footer>
+</div>
+</body>
+</html>
